@@ -15,7 +15,7 @@
     "express": "^5.1.0",
     "font-awesome": "^4.7.0",
     "garagem-prime-react": "file:",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^3.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
