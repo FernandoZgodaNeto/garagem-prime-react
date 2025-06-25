@@ -10,7 +10,7 @@ const Contato = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://us-central1-cryptic-skyline-463920-m1.cloudfunctions.net/sendEmail', {
+      const response = await fetch('/.netlify/functions/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
